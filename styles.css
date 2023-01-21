@@ -151,7 +151,7 @@ h2 {
         text-align: center;
     }
 
-   .header-rating, .stars1, .stars2, .stars3, .people-rating, .image {
+   .header-rating, .stars1, .stars2, .stars3, .people-rating {
         display: block;
    }
 }
