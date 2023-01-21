@@ -138,6 +138,11 @@ h2 {
 
     .stars1, .stars2, .stars3, .rating1, .rating2, .rating3 {
         width: 380px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
     }
 
    .header-rating, .stars1, .stars2, .stars3, .people-rating, .image {
