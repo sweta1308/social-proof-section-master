@@ -122,3 +122,9 @@ h2 {
     line-height: 18px;
     letter-spacing: 1px;
 }
+
+@media only screen and (max-width:480px){
+   .header-rating, .stars1, .stars2, .stars3, .people-rating, .image {
+    display: block;
+   }
+}
