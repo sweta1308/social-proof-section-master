@@ -136,7 +136,11 @@ h2 {
         text-align: center;
     }
 
+    .stars1, .stars2, .stars3, .rating1, .rating2, .rating3 {
+        width: 380px;
+    }
+
    .header-rating, .stars1, .stars2, .stars3, .people-rating, .image {
-    display: block;
+        display: block;
    }
 }
