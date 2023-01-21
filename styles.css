@@ -5,10 +5,46 @@ body {
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
 }
+
+main {
+    width: 1000px;
+}
+
 
 .header-rating {
     display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 360px;
+}
+
+h1 {
+    font-weight: 800;
+    color: hsl(300, 43%, 22%);
+    font-size: 2.3rem;
+    line-height: 40px;
+}
+
+.heading-des {
+    font-size: 13px;
+    color: hsl(303, 10%, 53%);
+}
+
+.stars1, .stars2, .stars3 {
+    display: flex;
+    background-color: hsl(300, 45%, 92%);
+    margin: 8px 0;
+    padding: 15px 25px;
+    font-size: 13px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
 }
 
 .people-rating {
