@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+
+.header-rating {
+    display: flex;
+}
+
+.people-rating {
+    display: flex;
+}
