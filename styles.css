@@ -151,6 +151,10 @@ h2 {
         text-align: center;
     }
 
+    .rating1, .rating2, .rating3 {
+        text-align: left;
+    }
+
    .header-rating, .stars1, .stars2, .stars3, .people-rating {
         display: block;
    }
