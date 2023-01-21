@@ -125,8 +125,11 @@ h2 {
 
 @media only screen and (max-width:480px){
     body {
-        width: 380px;
         display: block;
+    }
+
+    main {
+        width: 380px;
     }
 
     h1 {
